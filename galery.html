@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galería de Fotos Interactiva</title>
+    <link rel="stylesheet" href="galery.css">
+</head>
+<body>
+    <div id="image">Pase el ratón por encima de una imagen para mostrarla aquí</div>
+    
+    <div class="gallery">
+        <img src="images/image1.jpg" alt="soy yo feliz" tabindex="0" onmouseover="updateImage(this)" onmouseout="resetImage()" onfocus="showFocus(this)" onblur="showBlur(this)">
+        <img src="images/image2.jpg" alt="Mi yo del pasado LISA" tabindex="0" onmouseover="updateImage(this)" onmouseout="resetImage()" onfocus="showFocus(this)" onblur="showBlur(this)">
+        <img src="images/image3.jpg" alt="ALE PROFESIONAL" tabindex="0" onmouseover="updateImage(this)" onmouseout="resetImage()" onfocus="showFocus(this)" onblur="showBlur(this)">
+        <img src="images/image4.jpg" alt="Gato dormilon" tabindex="0" onmouseover="updateImage(this)" onmouseout="resetImage()" onfocus="showFocus(this)" onblur="showBlur(this)">
+        <img src="images/image5.jpg" alt="Perrita guapa" tabindex="0" onmouseover="updateImage(this)" onmouseout="resetImage()" onfocus="showFocus(this)" onblur="showBlur(this)">
+        <img src="images/image6.jpg" alt="gatito serio" tabindex="0" onmouseover="updateImage(this)" onmouseout="resetImage()" onfocus="showFocus(this)" onblur="showBlur(this)">
+    </div>
+
+    <script src="galery.js"></script>
+</body>
+</html>
